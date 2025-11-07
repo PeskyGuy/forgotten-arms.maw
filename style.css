@@ -1,0 +1,173 @@
+body {
+    background-color: #2b2b2b;
+    font-family: Verdana, Arial, sans-serif;
+    font-size: 11px;
+    color: #e0e0e0;
+    margin: 0;
+    padding: 0;
+}
+
+#container {
+    width: 780px;
+    margin: 20px auto;
+    background-color: #1a1a1a;
+    border: 2px solid #666;
+}
+
+#header {
+    background: linear-gradient(to bottom, #4a4a4a, #2a2a2a);
+    padding: 20px;
+    border-bottom: 3px solid #ff6600;
+}
+
+#header h1 {
+    margin: 0;
+    color: #ff6600;
+    font-size: 28px;
+    text-shadow: 2px 2px 4px #000;
+    font-family: Georgia, serif;
+}
+
+#header p {
+    margin: 5px 0 0 0;
+    color: #999;
+    font-size: 10px;
+}
+
+#navigation {
+    background-color: #333;
+    padding: 8px;
+    border-bottom: 1px solid #555;
+}
+
+#navigation a {
+    color: #ff9933;
+    text-decoration: none;
+    padding: 5px 10px;
+    margin-right: 5px;
+}
+
+#navigation a:hover {
+    background-color: #444;
+    color: #ffcc66;
+}
+
+#main {
+    padding: 15px;
+}
+
+.post {
+    background-color: #252525;
+    border: 1px solid #444;
+    margin-bottom: 20px;
+    padding: 15px;
+}
+
+.post-title {
+    color: #ff9933;
+    font-size: 16px;
+    font-weight: bold;
+    margin-bottom: 5px;
+    border-bottom: 1px dotted #555;
+    padding-bottom: 5px;
+}
+
+.post-date {
+    color: #777;
+    font-size: 9px;
+    margin-bottom: 10px;
+}
+
+.post-content {
+    line-height: 1.6;
+    color: #ccc;
+}
+
+.post-content h3 {
+    color: #ff6600;
+    font-size: 13px;
+    margin-top: 15px;
+}
+
+.post-content ul {
+    margin: 10px 0;
+    padding-left: 20px;
+}
+
+.post-content li {
+    margin: 5px 0;
+}
+
+#sidebar {
+    float: right;
+    width: 200px;
+    margin-left: 15px;
+    margin-bottom: 15px;
+}
+
+.sidebar-box {
+    background-color: #252525;
+    border: 1px solid #444;
+    padding: 10px;
+    margin-bottom: 15px;
+}
+
+.sidebar-box h3 {
+    color: #ff9933;
+    font-size: 12px;
+    margin: 0 0 10px 0;
+    border-bottom: 1px solid #444;
+    padding-bottom: 5px;
+}
+
+.sidebar-box ul {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+}
+
+.sidebar-box li {
+    padding: 3px 0;
+}
+
+.sidebar-box a {
+    color: #99ccff;
+    text-decoration: none;
+    font-size: 10px;
+}
+
+.sidebar-box a:hover {
+    color: #ffcc66;
+    text-decoration: underline;
+}
+
+#footer {
+    background-color: #1a1a1a;
+    border-top: 2px solid #444;
+    padding: 10px;
+    text-align: center;
+    color: #666;
+    font-size: 9px;
+    clear: both;
+}
+
+.counter {
+    background-color: #000;
+    color: #0f0;
+    font-family: "Courier New", monospace;
+    padding: 2px 5px;
+    border: 1px solid #0f0;
+    font-size: 10px;
+}
+
+img {
+    border: 2px solid #555;
+}
+
+a {
+    color: #99ccff;
+}
+
+a:visited {
+    color: #9966cc;
+}
